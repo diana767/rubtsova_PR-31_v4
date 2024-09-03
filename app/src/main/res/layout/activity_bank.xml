@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bank">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="411dp"
+        android:layout_height="519dp"
+        android:background="@color/zelenyi"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="165dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="283dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"
+            android:text="Введите ваш логин и пароль"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="282dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-287dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="60dp"
+            android:text="Логин"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="282dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-340dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="60dp"
+            android:text="Пароль"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="-385dp"
+            android:layout_marginRight="400dp"
+            android:background="@drawable/buttom"
+            android:text="войти"
+            android:textColor="@color/white"
+            android:textSize="24dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/image"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:text="Регистрация"
+        android:textStyle="bold"
+        android:textColor="@color/zelenyi"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
